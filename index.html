@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>RGB Selector</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <div>
+
+    <div class="container">
+    
+      <div class="selector">
+        <div>
+          <label for="red">Red:</label>
+          <input name="red" type="range" value="0" min="0" max="255" />
+          <input name="red" type="text" readonly />
+        </div>
+
+        <div>
+          <label for="green">Green:</label>
+          <input name="green" type="range" value="0" min="0" max="255" />
+          <input name="green" type="text" readonly />
+        </div>
+
+        <div>
+          <label for="blue">Blue:</label>
+          <input name="blue" type="range" value="0" min="0" max="255" />
+          <input name="blue" type="text" readonly />
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="./js/rgb.js"></script>
+</body>
+</html>
